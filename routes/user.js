@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/user');
 
-const serverName = "http://198.199.75.36/api/download/";
+const serverName = "https://getsenergyapp-api-main.onrender.com/api/download/";
 
 const auth = require("../util/authCheck");
 
